@@ -38,6 +38,7 @@ body{
         padding: 1rem;
         font-size: 1.2rem;
         font-weight: bold;
+        transition: all 0.4s;
     }
 
     .itemsummary{
@@ -98,6 +99,11 @@ body{
 
     text-align: center; */
 }
+
+.itemhead:hover{
+    color: rgb(0, 0, 168);
+}
+
 
 .items:hover{
     transform: scale(1.05);
